@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Sigmar One', cursive;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #ffe500;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #b20953;
+
+}
+
+.btn {
+  display: inline-block;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+}
