@@ -11,13 +11,11 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 header {
-  display: block;
-  text-align: center;
   background-color: #ffe500;
-  padding: .75em;
 }
 
 h1 {
@@ -25,21 +23,22 @@ h1 {
   font-family: "Sigmar One", cursive;
   font-size: 3rem;
   color: #b20953;
+  text-align: center;
 }
 
-nav ul {
+ul {
   list-style-type: none;
+  margin: 0;
 }
 
-nav li {
+.nav li {
   display: inline-block;
-  margin-top: 1em;
+  padding-bottom: .3em;
 }
 
-.btn {
-  padding: .5em;
-  margin: .1em;
-  border: 5px;
+.nav a {
+  display: inline-block;
+  padding: .2em .5em .3em;
   border-radius: 4px;
   background-color: #b2a212;
   color: white;
@@ -47,12 +46,22 @@ nav li {
   font-size: 1.125rem;
 }
 
-a:hover {
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav a:hover {
   background-color: #cc1465;
 }
 
+.nav .current {
+  background-color: #b20953;
+}
+
 main {
-  margin: .3em;
+  padding: 0 .75em;
 }
 
 h2 {
@@ -64,12 +73,10 @@ h2 {
 img {
   display: block;
   width: 100%;
-  margin: auto;
 }
 
 p {
   color: #2f2d13;
-  font-size: .75rem;
 }
 
 footer {
@@ -77,4 +84,6 @@ footer {
   text-align: center;
   color: #2f2d13;
   font-size: .75rem;
+  padding: .75em;
+  margin-top: .3em;
 }
